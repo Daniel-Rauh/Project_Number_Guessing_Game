@@ -44,7 +44,7 @@ function game() {
         button.style.color = "#0d8a0d"
         hints.style.color = "#0a570a"
         box.style.color = "#0d8a0d"
-        hints.innerHTML += `<h3>Congratulatios! You won after ${i} ruounds. <a href="index.html">Play again!</a></h3>`
+        hints.innerHTML += `<h3>Congratulatios! You won after ${i} rounds. <a href="index.html">Play again!</a></h3>`
     } else if (i >= rounds) {
         hints.innerHTML += `<h3>Sorry, you lost. Your number was ${number}. <a href="index.html">Play again!</a></h3>`
     } else if (guess > number) {
