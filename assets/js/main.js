@@ -35,7 +35,6 @@ function game() {
         button.style.color = "red"
         hints.style.color = "red"
     } else {
-        button.disabled = false
         i++
     }
     box.innerHTML = `<h2>${i}/${rounds}</h2>`
