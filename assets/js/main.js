@@ -7,7 +7,7 @@ const guessed = document.getElementById("guess")
 const hints = document.getElementById("hints")
 const box = document.getElementById("rounds")
 const button = document.getElementById("start")
-const number = Math.floor(Math.random() * (101 - 1)) + 1
+const number = Math.floor(Math.random() * 100) + 1
 function showCustom() {
     if (custom.checked) {
         customRounds.style.display = "inline-block"
